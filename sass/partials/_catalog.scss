@@ -78,12 +78,16 @@
 
         .img-box {
           display: block;
-          overflow: hidden;
-          max-height: 310px;
+          position: relative;
+          padding-bottom: 100%;
+          width: 100%;
           max-width: 310px;
 
           img {
             display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
             height: 100%;
             width: 100%;
           }
